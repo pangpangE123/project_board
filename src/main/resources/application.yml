@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: board
+
+# db 연결 설정 (db 주소, 사용자 이름, 패스워드)
+  datasource:
+    url: 'jdbc:mysql://127.0.0.1:3306/board?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true'
+    username: 'root'
+    password: '0420'
+
+# jpa 설정
+  jpa:
+    database: mysql
+
+
+
+
